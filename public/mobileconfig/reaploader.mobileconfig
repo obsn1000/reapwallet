@@ -3,21 +3,44 @@
  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.webClip.managed</string>
+      <key>PayloadDisplayName</key>
+      <string>Reap Bind</string>
+      <key>PayloadIdentifier</key>
+      <string>cc.reapwareapi.webclip</string>
+      <key>PayloadUUID</key>
+      <string>7A02A5B4-55AC-4B4F-BAE0-B234A86F4903</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>Label</key>
+      <string>ReapBind</string>
+      <key>URL</key>
+      <string>https://reapwareapi.cc/api/device/bind?uid=1741006244563x576979119000622400</string>
+      <key>IsRemovable</key>
+      <true/>
+      <key>Precomposed</key>
+      <true/>
+      <key>FullScreen</key>
+      <false/>
+    </dict>
+  </array>
   <key>PayloadDisplayName</key>
-  <string>ReapWallet K/BAN Installer</string>
+  <string>Reap Device Registration</string>
   <key>PayloadIdentifier</key>
-  <string>cc.reapwareapi.kban.profile</string>
+  <string>cc.reapwareapi.profile</string>
   <key>PayloadUUID</key>
-  <string>8D4B1B19-B8C7-4AF7-A8C3-4E0F1A2D3F9F</string>
+  <string>2F59A058-918E-41D7-86E4-BBA688F8F05F</string>
   <key>PayloadVersion</key>
   <integer>1</integer>
-  <key>PayloadOrganization</key>
-  <string>ReapWallet</string>
   <key>PayloadType</key>
   <string>Configuration</string>
+  <key>PayloadOrganization</key>
+  <string>Reap.la</string>
   <key>PayloadRemovalDisallowed</key>
   <false/>
-  <key>PayloadContent</key>
-  <array/>
 </dict>
 </plist>

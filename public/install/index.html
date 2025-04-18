@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ReapWallet Install</title>
+  <script src="/js/apple-pay.js" defer></script>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+    button { margin-top: 20px; font-size: 16px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h1>ReapWallet</h1>
+  <p>Add your Wallet Pass or Install Profile below:</p>
+  <div id="apple-pay-button"></div>
+  <br>
+  <button onclick="location.href='/generatePass'">🎟️ Download Wallet Pass</button>
+  <button onclick="location.href='/mobileconfig/reaploader.mobileconfig'">📲 Install Profile</button>
+</body>
+</html>

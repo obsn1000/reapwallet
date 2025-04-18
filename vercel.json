@@ -3,6 +3,7 @@
   "trailingSlash": false,
   "headers": [],
   "redirects": [],
-  "rewrites": []
+  "rewrites": [],
+  "ignoreCommand": "echo 'Skipping Vercel build'",
+  "outputDirectory": "public"
 }
-

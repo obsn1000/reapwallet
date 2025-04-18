@@ -1,9 +1,28 @@
 {
   "cleanUrls": false,
   "trailingSlash": false,
-  "headers": [],
+  "outputDirectory": "public",
+  "headers": [
+    {
+      "source": "/mobileconfig/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/x-apple-aspen-config"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    }
+  ],
   "redirects": [],
   "rewrites": [],
-  "ignoreCommand": "echo 'Skipping Vercel build'",
-  "outputDirectory": "public"
+  "ignoreCommand": "echo 'Skip Vercel Build'"
 }
